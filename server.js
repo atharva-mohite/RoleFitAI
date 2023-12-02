@@ -89,8 +89,8 @@ app.get('/viewResume/:filename', (req, res) => {
 const db = mysql.createConnection({
   host: 'localhost',
   user: 'root',
-  password: '*Frank123',
-  database: 'input_resume'
+  password: 'your_database_password',
+  database: 'your_database_name'
 });
 
 db.connect(err => {
